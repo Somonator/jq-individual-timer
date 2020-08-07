@@ -5,9 +5,15 @@
     <title>jQuery individual timer</title>
 </head>
 <body>
+    <p>Let's set 30 minutes for example:</p>
     <div class="block"></div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="timer.js"></script>    
+    <script src="timer.js"></script>
+    <script>
+        set_timer($('.block'), [0, 0, 30, 0], function(block) {
+            block.html('<h1>time is over</h1>');
+        });
+    </script> 
 </body>
 </html>
