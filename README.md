@@ -1,4 +1,4 @@
-# jQuery individual timer
+# jQuery local individual timer
 
 The timer starts on the first visit page. Date now is remembered by local storage. After its completion, the function_result is initialized.
 
